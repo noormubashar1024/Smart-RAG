@@ -20,6 +20,10 @@ st.set_page_config(
 # Pro Tech Styling & Animations
 st.markdown("""
     <style>
+                #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            
     @keyframes fadeIn {
         from { opacity: 0; transform: translateY(12px); }
         to { opacity: 1; transform: translateY(0); }
